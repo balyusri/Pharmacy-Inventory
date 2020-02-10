@@ -1,0 +1,196 @@
+.header{
+  background-color: #ffb6b9;
+  width: 100%;
+  display: inline-block;
+}
+
+.footer{
+  background-color: #ffb6b9;
+  padding: 50px 0px 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.navbar{
+  margin-bottom: 50px;
+}
+
+.aboutus{
+  font-family: 'Unna', serif;
+  font-size: 30px;
+}
+
+.indeximg{
+  height: 100px;
+}
+
+.intro{
+  text-align: center;
+}
+
+.date{
+  margin: 0px 20px 50px 0px;
+  font-family: 'Rubik', sans-serif;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.doctorimg{
+  border-radius: 50%;
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+.haniimg{
+  border-radius: 50%;
+  width: 150px;
+  float: right;
+  margin-left: 20px;
+}
+
+.hani{
+  text-align: right;
+}
+
+.doctor-row{
+  width: 40%;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.table{
+  background-color: #f3dfe3;
+  font-family: 'Noto serif', serif;
+  line-height: 2;
+}
+
+
+.medinfobox{
+  margin:auto;
+  text-align: center;
+  width: 70%;
+}
+
+
+.medinfo{
+  text-align: left;
+  line-height: 3;
+  font-family: 'Noto serif', serif;
+  font-size: 20px;
+}
+
+button{
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:20px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+button:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+h1{
+  display: inline-block;
+  margin-left: 20px;
+  font-family: 'Unna', sans-serif;
+  font-size: 50px;
+}
+
+h2{
+  font-family: 'Rubik', sans-serif;
+}
+
+h3{
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+}
+
+hr{
+  border:dotted #d45d79 6px;
+  border-bottom: none;
+  width: 20%;
+  margin: 50px auto;
+}
+
+p{
+  font-family: 'Noto serif',serif;
+  width:70%;
+  margin:auto;
+  line-height: 2;
+}
+
+body{
+  margin: 0px;
+  background-color: #fbf4f9;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Noto Serif', serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+table{
+  font-family: 'Rubik',sans-serif;
+  line-height: 2;
+  margin: 50px auto;
+}
+
+.submit{
+  font-family: 'Rubik', sans-serif;
+  background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color:#ededed;
+  border-radius:15px;
+  border:1px solid #d6bcd6;
+  cursor:pointer;
+  color: black;
+  font-size:17px;
+  padding:7px 25px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #e1e2ed;
+}
+
+.main{
+  margin: 100px auto;
+  font-size: 50px;
+  text-align: center;
+}
+
+.active {
+  background-color: #851d41;
+}

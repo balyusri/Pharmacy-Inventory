@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Rubik|Unna&display=swap" rel="stylesheet">
+  <title>Pharmacy Inventory System</title>
+  <link rel="icon" href="favicon (3).ico">
+
+  <style>
+    div.gallery {
+      margin: auto;
+      border: 1px solid #ccc;
+      width: 30%;
+      margin-bottom: 50px;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <body>
+    <div class="header">
+      <h1>Pharmacy Inventory System</h1>
+    </div>
+
+    <div class="navbar">
+      <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="inventory.php">Inventory</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+
+    <div class="date">
+      <script>
+        var d = new Date();
+        var month = d.getMonth() + 1;
+        document.write("Current date : " + d.getDate() + "/" + month + "/" + d.getFullYear());
+      </script>
+    </div>
+
+    <center><h2>Feel free to contact us for any information or help.</h2></center>
+
+    <div class="gallery">
+      <a target="_blank" href="img_5terre.jpg">
+        <img src="contact1.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc">Our manager at our Headquarter.</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_forest.jpg">
+        <img src="contact2.jpg" alt="Forest" width="600" height="400">
+      </a>
+      <div class="desc">Our manager at our main branch.</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_lights.jpg">
+        <img src="contact3.jpg" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc">Our manager at our Europe branch.</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="img_mountains.jpg">
+        <img src="contact4.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc">Our manager at our America branch.</div>
+    </div>
+
+    <div class="footer">
+      <h3>Find more about us at:</h3>
+      <a class="footer-link" href="https://www.instagram.com/"><img src="instagram.png" height="30px"></a>
+      <br>
+      <a class="footer-link" href="https://twitter.com/"><img src="twitter.png" height="30px"></a>
+      <br>
+      <a class="footer-link" href="https://www.facebook.com/"><img src="facebook.png" height="30px"></a>
+
+    </div>
+
+  </body>
+
+</html>
